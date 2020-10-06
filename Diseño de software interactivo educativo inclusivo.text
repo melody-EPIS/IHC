@@ -1,0 +1,406 @@
+\documentclass[11pt]{beamer}
+\usepackage{listings} % Include the listings-package
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb, amsfonts, latexsym, cancel}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{hyperref}
+%\usepackage{authblk}
+\usepackage{blindtext}
+\usepackage{booktabs} % Allows the use of \toprule, 
+\usepackage{filecontents}
+\usepackage{courier} %% Sets font for listing as Courier.
+\usepackage{listings}
+%\usepackage{listings, xcolor}
+\lstset{
+tabsize = 2, %% set tab space width
+showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
+numbers = left, %% display line numbers on the left
+commentstyle = \color{green}, %% set comment color
+keywordstyle = \color{blue}, %% set keyword color
+stringstyle = \color{red}, %% set string color
+rulecolor = \color{black}, %% set frame color to avoid being affected by text color
+basicstyle = \small \ttfamily , %% set listing font and size
+breaklines = true, %% enable line breaking
+numberstyle = \tiny,
+}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\definecolor{urlColor}{rgb}{0.06, 0.3, 0.57}
+\definecolor{linkColor}{rgb}{0.57, 0.0, 0.04}
+\definecolor{fileColor}{rgb}{0.0, 0.26, 0.26}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkColor,
+    filecolor=fileColor,      
+    urlcolor=urlColor,
+}
+\urlstyle{same}
+\setbeamercovered{transparent}
+%\usetheme{Boadilla}
+\usetheme{CambridgeUS}
+%\usetheme{Berkeley}
+%\usetheme{Warsaw}
+%\usetheme{Madrid}
+
+\title[]{\bf\Huge }
+\subtitle{}
+
+\author[grupo 12]
+{}
+\institute[]
+{
+\inst{0}% 
+}
+\date[]{\scriptsize{}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Evaluacion de Software Educativo Inclusivo}
+\begin{frame}
+\frametitle{Software Educativo}
+\begin{itemize}
+\item  Software Educativos son los programas para ordenador creados con la finalidad específica de ser utilizados como medio didáctico, es decir, para facilitar los procesos de enseñanza y de aprendizaje. Todo Software Educativo cumple 5 características esenciales.
+\item Son materiales elaborados con una finalidad didáctica, como se desprende de la definición. 
+\item Utilizan el ordenador como soporte en el que los alumnos realizan las actividades que ellos proponen. 
+\item Son interactivos, contestan inmediatamente las acciones de los estudiantes y permiten un diálogo y un intercambio de informaciones entre el ordenador y los estudiantes.
+\item Individualizan el trabajo de los estudiantes, ya que se adaptan al ritmo de
+trabajo cada uno y pueden adaptar sus actividades según las actuaciones de los alumnos. 
+\item Son fáciles de usar. Los conocimientos informáticos necesarios para utilizar la mayoría de estos programas son similares a los conocimientos de electrónica necesarios para usar un video, es decir, son mínimos, aunque cada programa tiene unas reglas de funcionamiento que es necesario conocer.
+\end{itemize}
+\end{frame}
+
+
+\section{Evaluacion del Software Educativo Inclusivo}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item La evaluación de Software Educativo yace en dos momentos principales:
+El primer tipo de evaluación se usa para los diseñadores o desarrolladores de sistemas computacionales, mismos que tienen conocimientos avanzados en cuestiones tecnológicas, innovadoras y de programación, mas no de cuestiones pedagógicas y educativas.
+El segundo, en cambio, va más orientado a una evaluación del software ya desarrollado; para los docentes que quieran conocer su efectividad aunque esto implique, en caso de que no sea efectivo del todo el software educativo, un nuevo diseño o desarrollo.
+\item  la finalidad del software educativo es orientar un uso pedagógicamente adecuado, en donde se ayudará al usuario, sobre todo al docente, en el uso del programa, haciendo énfasis en los aspectos pedagógicos, metodológicos, ideológicos y culturales que, de todas formas, contiene. Es importante enfatizar que la evaluación de software educativo estará alineada a una serie de indicadores, parámetros y criterios específicos a la orientación educativa que se le quiera dar.
+\end{itemize}
+\end{frame}
+
+\section{Intervención educativa especial para personas con discapacidad intelectual}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item Hay diversas formas de intervención educativa específicamente para la discapacidad intelectual, en donde se trata principalmente desarrollar las habilidades conductuales y las habilidades de socialización; la discapacidad intelectual no sólo es cuestión de un bajo CI, sino que, tambien la problemática va más orientada a la conducta.
+ Dichas estrategias de intervención se aplican y utilizan según la edad y el nivel educativo en el que el alumno o persona con discapacidad se encuentre.
+\end{itemize}
+\end{frame}
+
+\section{Intervención educativa especial para personas con discapacidad intelectual}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item  la mayoría de las Guías para discapacidad intelectual sugieren potenciar las capacidades de los alumnos e integrarlos en el ámbito social. Para ello el instructor debe conocer los avances del pensamiento correspondientes a la etapa en la que se encuentra el alumno, entre ellos tenemos:
+\item El juego simbólico, es decir, la manera en que el niño juega con objetos
+imaginarios y a los que les da un significado real (por ejemplo, un palo puede ser un avión, una caja simular un coche y un rebozo enrollado hacer las veces de una muñeca).
+\item La imitación, que le permite copiar las acciones del adulto (por ejemplo,
+la forma en que come el papá, la risa de algún familiar cercano o el modo de peinarse de la mamá).
+\item La imagen mental, que es la representación del objeto que el niño tiene en su mente y que le facilita recordarlo, aunque desaparezca de su vista.
+\end{itemize}
+\end{frame}
+
+\section{Intervención educativa especial para personas con discapacidad intelectual}
+\begin{frame}
+\frametitle{Objetivos de desarrollo}
+\begin{itemize}
+\item En el ámbito cognoscitivo, se requiere buscar el desarrollo de habilidades y del pensamiento del niño con discapacidad intelectual.En el ámbito cognoscitivo, se requiere buscar el desarrollo de habilidades y del pensamiento del niño con discapacidad intelectual.
+\item En el ámbito psicomotor, se requiere buscar la integración de su esquema corporal, y en las nociones de tiempo y espacio, lo que tiene como consecuencias dificultades en su aprendizaje.
+\item En el ámbito psicosocial, se requiere que el niño comprenda las relaciones que establece con la familia, la escuela y la comunidad.
+\end{itemize}
+\end{frame}
+
+\section{Propuesta de ficha de evaluacion de software educativo}
+\begin{frame}
+\frametitle{Propuesta de ficha de evaluacion de software educativo}
+\begin{itemize}
+\item Hay varios autores que han propuesto Fichas de Evaluación de Software Educativo con criterios e índices que se han ido construyendo a lo largo de diferentes investigaciones en este campo. Dichas fichas, si bien no son instrumentos con una metodología rigurosa de estandarización, han proporcionado un panorama efectivo para poder crear productos educativos que cumplan con la función esencial del software educativo a través de su evaluación y la implementación de criterios genéricos que ayuden a dicho objetivo.
+\end{itemize}
+\end{frame}
+
+\section{Propuesta de ficha de evaluacion de software educativo}
+\begin{frame}
+\frametitle{Indicadores para los Criterios de la Ficha de Evaluacion}
+\begin{itemize}
+\item indicador de Diseño Instruccional
+\item indicador de Funcionalidad y Pedagogía
+\item indicador de usabilidad y diseño
+\item indicador de Eficiencia y Portabilidad
+\item indicador de Modelo de Aprendizaje
+\item indicador de Diseño Universal
+\end{itemize}
+\end{frame}
+
+\section{Metodologia}
+\begin{frame}
+\frametitle{Metodologia}
+\begin{itemize}
+\item Para llevar a cabo esta investigación se emplearon métodos tanto lógicos como empíricos. 
+\item Dentro del método lógico, se recurrió al método lógico inductivo; en donde se puso de manifiesto la investigación de algunas fichas de evaluación para software educativo, así como los indicadores que proponen algunos autores.
+\item Dentro del método empírico, para la recolección de datos se utilizó la investigación documental; donde se recaudó información alusiva a las fichas para evaluar software educativo ya existentes, y, en base a éstos se empezaron a construir los indicadores para el diseño de la ficha de evaluación para software educativo propuesto. 
+\end{itemize}
+\end{frame}
+
+
+\section{Experiencia en apoyo a aprendizaje Inclusivo de la Lectura}
+\begin{frame}
+\frametitle{Experiencia en apoyo a aprendizaje Inclusivo de la Lectura}
+\begin{itemize}
+\includegraphics[width=8cm, height=8cm]{img/lectura.jpg}
+\item
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Participantes}
+\begin{itemize}
+\item El grupo multidisciplinario para el caso de estudio estuvo conformado por:
+\item Maestra de educación regular
+\item Maestra de apoyo
+\item Psicologo
+\item Trabajador social
+\item Pedagogo
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item La participación de los actores contribuyó a :
+\item La generación de un perfil pedagógico
+\item La generación de rutas específicas
+\item Evaluaciones acorde a su perfil
+\item Interpretación de la retroalimentación
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Perfil de Usuario}
+\begin{itemize}
+\includegraphics[width=8cm, height=8cm]{img/perfil.JPG}
+\item
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Lectoescritura}
+\begin{itemize}
+\item REGULAR  => Alfabético Lectura fluida, lee y realiza interpretaciones
+\item INTERMEDIO => Silábico Silábico - alfabético
+\item BASICO => Presilábico Percepción,atención,memoria,orientación
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Prototipo}
+\begin{itemize}
+\includegraphics[width=10cm, height=8cm]{img/prototipo.JPG}
+\item
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Usuario A}
+\begin{itemize}
+\includegraphics[width=10cm, height=8cm]{img/silabas.jpg}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Usuario B}
+\begin{itemize}
+\includegraphics[width=10cm, height=8cm]{img/Audiocuentos.png}
+\item
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Capacitaciones}
+\begin{itemize}
+\item Los maestros hacen una evaluación por cada estudiante
+\item Cada maestro tiene que capacitarse en el uso de las herramientas
+\item Elaborar material didáctico junto a los pedagogos y así optimizar un buen aprendizaje
+\item Es necesario darle la debida importancia a los maestros 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Aplicaciones Educativas}
+\begin{itemize}
+\item Enfoque pedagógico: toda aplicación "echa a la medida" debe orientarse al aprendizaje continuo y diferente por cada discapacidad encontrada.
+\item Aplicaciones interactivas: hay muchas aplicaciones ya creadas, puede reciclarse algunas funcionalidades y diseños.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Generación de nuevas aplicaciones}
+\begin{itemize}
+\item La generación de nuevas aplicaciones lleva a que cada diseño de la interfaz sea adecuado de acuerdo a los criterios que se quiere reforzar.
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=6cm, height=4cm]{img/generacin.jpg}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Pruebas de uso de aplicaciones educativas}
+\begin{figure}
+\includegraphics[width=8cm, height=8cm]{img/prueba.jpg}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Pruebas de usabilidad}
+\begin{figure}
+\includegraphics[width=10cm, height=8cm]{img/usabilidad.JPG}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Experiencias del usuario A}
+\begin{figure}
+\includegraphics[width=10cm, height=8cm]{img/A.JPG}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Experiencias del usuario B}
+\begin{figure}
+\includegraphics[width=10cm, height=8cm]{img/B.JPG}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{KINECT para personas con discapacidad auditiva}
+\begin{itemize}
+\item Este sistema permite a sus usuarios comprender oraciones por medio de la relación entre símbolos, imágenes y palabras.
+
+Gracias a software creado por investigadores de la Universidad Veracruzana (México), las personas con discapacidad auditiva podrán identificar palabras e interactuar con los objetos, con el fin de que aprendan a leer de una forma dinámica.
+
+Este software está integrado al sistema de captura de movimientos Kinect, y se basa en un diccionario dinámico creado con la ayuda del programa Flash, el cual permite que las personas aprendan a leer por medio de la relación entre símbolos, imágenes y palabras.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Aplicaciones para enseñar a leer}
+\begin{itemize}
+\item Sabemos que, en la actualidad, la mayoría de los niños hacen uso de las nuevas tecnologías. Por ello, se han desarrollado apps para niños con discapacidad que mejoran sus habilidades cognitivas y otras destrezas mientras se divierten.
+\item Léelo Fácil.
+La Confederación Española de Organizaciones a favor de las Personas con Discapacidad Intelectual o del Desarrollo han creado una nueva app para facilitar la lectura a personas con discapacidad intelectual o del desarrollo, o cualquier discapacidad que suponga dificultades a la hora de leer.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Modelo de procesos para desarrollar aplicaciones educativas para el area de matemáticas}
+\tableofcontents
+\end{frame}
+
+\section{Participantes}
+\begin{frame}
+\frametitle{Participantes}
+\begin{itemize}
+\item Niños con problemas de aprendizaje en el area de matemáticas.
+\end{itemize}
+\begin{itemize}
+\item Maestra de educación.
+\end{itemize}
+\begin{itemize}
+\item Maestra de apoyo.
+\end{itemize}
+\begin{itemize}
+\item Psicólogo.
+\end{itemize}
+\begin{itemize}
+\item Trabajador social.
+\end{itemize}
+\begin{itemize}
+\item Pedagogo.
+\end{itemize}
+\end{frame}
+
+\section{Diseño}
+\begin{frame}
+\frametitle{Diseño}
+\begin{itemize}
+\item Se construye en colaboración con los maestros los prototipos de las aplicaciones, desde la lógica hasta las interfaces gráficas.
+\end{itemize}
+\begin{itemize}
+\item Teniendo en cuenta que hay dos tipos de usuarios para este software, los maestros y los alumnos, son valiosas las apreciaciones de ambos, los maestros necesitan una interaccion con sus alumnos y los alumnos necesitan estar comodos con el sistema para así garantizar mejores resultados.
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm, height=3cm]{img/dise+¦o.jpg}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+
+\section{Desarrollo}
+\begin{frame}
+\frametitle{Desarrollo}
+\begin{itemize}
+\item Un sistema de aprendizaje móvil consiste en los siguientes componentes:  dispositivo  de  aprendizaje  móvil,  software  de  aprendizaje  móvil  y  contenido de aprendizaje móvil.
+\end{itemize}
+\begin{itemize}
+\item Posterior a la fase del prototipado, se hacen las pruebas de usabilidad para medir la eficiencia de las aplicaciones y corregir errores.
+\end{itemize}
+\begin{itemize}
+\item Factores como la nacionalidad, lenguaje, sexo, influyen en el correcto uso de los botones, colores, imagenes y sonidos. 
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=6cm, height=4cm]{img/desarrollo.png}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+
+\section{Lanzamiento}
+\begin{frame}
+\frametitle{Lanzamiento}
+\begin{itemize}
+\item Teniendo resultados con un primer grupo de prueba se capacita a diferentes maestros que requerirán de estas aplicaciones
+\end{itemize}
+\begin{itemize}
+\item Repositorio de recursos educativos en Matemáticas Básicas que está a la disposición de los maestros en base a su análisis del problema de los niños.    
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=6cm, height=4cm]{img/lanzamiento.jpg}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+
+\section{Referencias}
+%References frame
+\begin{frame}
+\frametitle{Referencias}
+\begin{itemize}
+\item \href{http://repositoriocdpd.net:8080/bitstream/handle/123456789/351/Art_FerreyraJA_UsoTicEducacion_2009.pdf?sequence=1}{Uso de las Tic en educación especial}
+\item \href{https://www.redalyc.org/pdf/688/68826916005.pdf}{Inclusión educativa virtual en estudiantes con discapacidad motora}
+\item \href{https://core.ac.uk/reader/268150030}{Uso de aplicaciones móviles educativas para niños con dificultades de aprendizaje}
+\item \href{http://www.id-book.com/}{Interaction Design - Book}
+\item \href{shorturl.at/nLNV6}{EVALUACIÓN DE SOFTWARE EDUCATIVO PARA DISCAPACIDAD INTELECTUAL EN EDUCACIÓN INICIAL}
+\end{itemize}
+\end{frame}
+
+\end{document}
