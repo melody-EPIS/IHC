@@ -52,19 +52,78 @@ numberstyle = \tiny,
 
 \title[]{\bf\Huge }
 \subtitle{}
+\title[Presentación]{\bf\Huge Diseño de Software Interactivo Educativo Inclusivo}
+\subtitle{Presentación}
 
 \author[grupo 12]
-{}
-\institute[]
+{
+	Sneyder Montoya Pinto \inst{1}
+	Jeremy Jeison Cruz Gallegos \inst{2}
+	Alexandra Rosario Paricela Canazas \inst{3}
+	Melody Marisol Ramos Challa \inst{4}
+}
+\institute[UNSA]
 {
 \inst{0}% 
+System Engineering School\\
+System Engineering and Informatic Department\\
+Production and Services Faculty\\
+San Agustin National University of Arequipa
 }
-\date[]{\scriptsize{}}
+\date[2020-10-06]{\scriptsize{2020-10-06}}
 
 \begin{document}
-
 \begin{frame}
 \titlepage
+\end{frame}
+
+\section{Introducción}
+\begin{frame}
+\frametitle{Introducción}
+\begin{itemize}
+\item Educación Inclusiva
+\item Discapacidad física, sensorial, mental.
+\item Áreas curriculares, competencias y niveles educativos de la Educación Básica Regular
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm, height=3cm]{img/education.jpg}
+    \label{fig:my_label}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Introduccion}
+\begin{itemize}
+\item El Instituto Nacional de Estadística e Informática, dio a conocer que en nuestro país el 5,2 por ciento de la población (1 millón 575 mil personas) presenta algún tipo de discapacidad.
+\item El estudio mostró que la discapacidad motora (dificultad para moverse o caminar y/o para usar brazos o piernas), es la que más afecta, alcanzando 932 mil personas (59,2), dificultad para ver (50,9), para oír (33,8), para entender o aprender (32,1), para relacionarse con los demás (18,8) y para hablar o comunicarse (16,6).
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Introducción}
+\begin{itemize}
+\item W3C Cognitive and Learning Disabilities Accessibility(COGA)
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm, height=3cm]{img/w3c.jpg}
+    \label{fig:my_label}
+\end{figure}
+\end{itemize}
+\end{frame}
+
+\section{Problemática}
+\begin{frame}
+\frametitle{Problemática}
+\begin{itemize}
+\item Asistir a niños con educación inclusiva y regular.
+\begin{figure}
+    \centering
+    \includegraphics[width=7cm, height=3cm]{img/education2.png}
+    \label{fig:my_label}
+\end{figure}
+\end{itemize}
 \end{frame}
 
 \section{Evaluacion de Software Educativo Inclusivo}
@@ -313,7 +372,9 @@ La Confederación Española de Organizaciones a favor de las Personas con Discap
 
 \begin{frame}
 \frametitle{Modelo de procesos para desarrollar aplicaciones educativas para el area de matemáticas}
-\tableofcontents
+\begin{itemize}
+\item A muchos alumnos a lo largo de su época escolar les cuesta la asignatura de matemáticas; esa asignatura para algunos es una bendición y para otros es una tortura. Gracias al avance de la tecnología los alumnos no dependen únicamente de libros y ahora hay varias a apps enfocadas al aprendizaje de esta materia.
+\end{itemize}
 \end{frame}
 
 \section{Participantes}
@@ -404,3 +465,4 @@ La Confederación Española de Organizaciones a favor de las Personas con Discap
 \end{frame}
 
 \end{document}
+
